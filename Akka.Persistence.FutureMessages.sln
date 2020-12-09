@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.FutureMessages", "Akka.Persistence.FutureMessages\Akka.Persistence.FutureMessages.csproj", "{0D6E08E0-C5EC-4776-9906-0EE8B4AF6DAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.FutureMessages.Tests", "Akka.Persistence.FutureMessages.Tests\Akka.Persistence.FutureMessages.Tests.csproj", "{C12260C4-5DEF-4CBC-BEF0-7889D48EC86C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6E08E0-C5EC-4776-9906-0EE8B4AF6DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6E08E0-C5EC-4776-9906-0EE8B4AF6DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6E08E0-C5EC-4776-9906-0EE8B4AF6DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6E08E0-C5EC-4776-9906-0EE8B4AF6DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12260C4-5DEF-4CBC-BEF0-7889D48EC86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12260C4-5DEF-4CBC-BEF0-7889D48EC86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12260C4-5DEF-4CBC-BEF0-7889D48EC86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12260C4-5DEF-4CBC-BEF0-7889D48EC86C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38141020-56A1-419E-97D0-5D2E4C3CA87E}
+	EndGlobalSection
+EndGlobal

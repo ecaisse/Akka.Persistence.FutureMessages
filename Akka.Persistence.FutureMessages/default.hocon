@@ -1,0 +1,8 @@
+﻿akka.persistence {
+	eventsourced-scheduler {
+		snapshot-strategy = "Akka.Persistence.FutureMessages.Internals.DefaultSnapshotStrategy, Akka.Persistence.FutureMessages"
+		acknowledgement-strategy = "Akka.Persistence.FutureMessages.Internals.PassthroughAcknowledgementStrategy, Akka.Persistence.FutureMessages"
+		default-queue-size = 1000
+		operations-per-snapshot = 1000
+	}
+}

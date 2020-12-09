@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OldEventsourcedScheduler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="default.hocon" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="default.hocon" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Akka.Persistence" Version="1.4.10" />
+    <PackageReference Include="OptimizedPriorityQueue" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
